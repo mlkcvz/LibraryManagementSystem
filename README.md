@@ -15,5 +15,9 @@ Kitap ekleme, listeleme, başlığa göre arama, ödünç alma ve iade işlemler
 Programın Çalışma Mantığı: Kullanıcı bir seçenek girer (örneğin: 1 yani kitap ekleme) , Programla ilgili işlem yapar ,
 Ana menü tekrar gösterilir , Kullanıcı 6 (Çıkış) seçeneği seçene kadar program çalışmaya devam eder. 
 Class a özgü olacak şekilde Library clasından library nesnesi oluşturuyoruz.
-switch şartıyla gelen menüden eğer kullanıcı 1 i seçerse addBook() metodu çalışır. addBook() metodu kullanıcıdan sırayla kitap adı , yazar adı ve isbn numarası alır ve birer değişkene atar. 
+switch şartıyla gelen menüden eğer kullanıcı 1 i seçerse addBook() metodu çalışır. 
+addBook() metodu kullanıcıdan sırayla kitap adı , yazar adı ve isbn numarası alır ve birer değişkene atar. 
+searchBook() → Kullanıcının girdiği kitap adını kütüphanede arar ve varsa bilgilerini ekrana yazdırır.
+borrowBook() → Kullanıcının belirttiği kitabı ödünç almasını sağlar. Kitap bulunamazsa uyarı verir.
+returnBook() → Kullanıcının belirttiği kitabı iade etmesini sağlar. Kitap zaten kütüphanede mevcutsa veya bulunamazsa uyarı verir.
 
